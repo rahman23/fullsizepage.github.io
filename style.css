@@ -1,0 +1,145 @@
+
+body{
+    font-family: 'Vollkorn', serif;
+    margin: 0px;
+
+
+}
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.7rem;
+    font-weight:600;
+    color:#1B1B1B;
+
+  } 
+.blue{
+   color:#5383d3;
+  }
+.nav-item{
+      margin-top: 1rem;
+      font-size: 1.5rem; 
+
+  }
+
+header.masthead {
+    position: relative;
+    min-height: 90vh;
+    background: url("./img/back.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment:fixed;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+  }
+  
+header.masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+  }
+h1.mb-5{
+    color:#1b1b1bb5;
+  }
+.card{
+    min-height:30vh;
+    display: inline-block; 
+ }
+
+
+.card .info {
+    position:absolute;;
+    padding:0em 1em;
+    bottom:0.5em;    
+    visibility:hidden;
+    color:whitesmoke;
+
+    }
+    .card-title {
+        font-size:1.5em;
+        margin-bottom: .1em;
+    }
+    .card-text {
+        font-size:1em;
+     
+    }
+    .card .img {
+        position: absolute;
+        left: -1px;
+        top: -1px;
+        bottom: -1px;
+        right: -1px;
+     
+
+   }
+   
+   .card:hover .img {
+        filter: brightness(40%);
+   }
+  
+    .card:hover .info  {
+    visibility:visible;
+
+  
+    }
+  .img1{
+    background: url("./img/1.jpeg") no-repeat center center;
+    background-size: cover;
+ 
+  }
+  .img2{
+    background: url("./img/2.jpg") no-repeat center center;
+    background-size: cover;
+    
+  }
+  .img3{
+    background: url("./img/3.jpeg") no-repeat center center;
+    background-size: cover;
+   
+  }
+  .img4{
+    background: url("./img/4.jpeg") no-repeat center center;
+    background-size: cover;
+
+  }
+  .icon{
+    text-align: center;
+    padding-top:5vh;
+    font-size:9em;
+    color:#1e3a42;
+    background-color:white;
+ }
+
+  footer{
+    background-color: #223544ed;
+    padding:2em 0em;
+}	
+.adress span , .contact span  {
+    color: #FFF; 
+    font-weight: 600; 
+    padding:20px 0px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+ }
+ 
+ .adress li , .contact li  {
+     padding: .2em 0px;
+     list-style: none;
+ }
+ 
+ .adress li p , .contact li a{
+     color:#FFF;
+     letter-spacing: 2px;
+     text-decoration:none;
+     font-size:14px;
+ }
+ 
+ tab {
+    margin-left: .8em;
+    display: inline-block;
+    padding-bottom: .2em;
+}
