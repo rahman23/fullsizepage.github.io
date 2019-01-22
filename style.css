@@ -7,17 +7,18 @@ body{
 }
 .logo{
     font-family: 'Dancing Script', cursive;
-    font-size: 2.7rem;
+    font-size: 2.7em;
     font-weight:600;
     color:#1B1B1B;
+    padding:2vh;
 
   } 
 .blue{
    color:#5383d3;
   }
 .nav-item{
-      margin-top: 1rem;
-      font-size: 1.5rem; 
+      margin-top: 1em;
+      font-size: 1.5em; 
 
   }
 
@@ -27,8 +28,8 @@ header.masthead {
     background: url("./img/back.jpg") no-repeat center center;
     background-size: cover;
     background-attachment:fixed;
-    padding-top: 12rem;
-    padding-bottom: 8rem;
+    padding-top: 12em;
+    padding-bottom: 8em;
   }
   
 header.masthead .overlay {
@@ -47,6 +48,7 @@ h1.mb-5{
     min-height:30vh;
     display: inline-block; 
  }
+
 
 
 .card .info {
@@ -139,7 +141,7 @@ h1.mb-5{
  }
  
  tab {
-    margin-left: .8em;
+    margin-left: .6em;
     display: inline-block;
     padding-bottom: .2em;
 }
